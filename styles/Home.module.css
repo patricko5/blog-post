@@ -1,17 +1,28 @@
 .container {
-  margin: 0% 10%;
-  border: none;
-  border-radius: 50px;
-  background-color: black;
-  color: rgb(255, 255, 255);
-  display: flex;
-  flex-direction: column;
-}
-.text {
-  margin: 20px 75px;
-  font-size: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
-.title {
-  color: #6200ff;
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 0px;
+    gap: 20px;
+
+}
+
+.item {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 0px 10px;
+}
+
+.bottom {
+    display: flex;
+}
+
+.actionItem {
+    background-color: black;
+    color: white;
 }
