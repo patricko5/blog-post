@@ -7,10 +7,12 @@ const BlogPostOne = () => {
     <div className={styles.container}>
       <div className={styles.text}>
         <div className={styles.titleGroup}>
-          <h1 className={styles.title}>Blog Post One by Patrick Orihuela</h1>
+          <h3>Blog Post One by Patrick Orihuela</h3>
         </div>
         <div className={styles.textGroup}>
-          <h3>A Strong Tool for Web Development Is TypeScript</h3>
+          <h1 className={styles.title}>
+            A Strong Tool for Web Development Is TypeScript
+          </h1>
           <p>
             The robustness and maintainability of code are enhanced with the
             addition of optional static typing and other capabilities in

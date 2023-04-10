@@ -4,7 +4,7 @@ import { useState } from "react";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
-  const [selectedTab, setSelectedTab] = useState("tab1");
+  const [selectedTab, setSelectedTab] = useState("tab2");
 
   const handleTabClick = (tab) => {
     setSelectedTab(tab);
